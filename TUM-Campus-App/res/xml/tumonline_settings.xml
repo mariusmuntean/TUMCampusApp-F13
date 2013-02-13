@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+<!-- Can't export the titles, don't know why (Florian Schulz) -->
+    <PreferenceCategory android:title="@string/user_data" >
+        <EditTextPreference
+            android:key="lrz_id"
+            android:summary="@string/lrz_id"
+            android:title="LRZ-Kennung" >
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="tumonline_password"
+            android:password="true"
+            android:singleLine="true"
+            android:summary="@string/tumonline_password"
+            android:title="TUMOnline-Passwort" android:enabled="false" android:shouldDisableView="true" android:selectable="false">
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="access_token"
+            android:summary="@string/tumonline_access_token"
+            android:title="TUMOnline-Access-Token" android:enabled="false" android:shouldDisableView="true" android:selectable="false">
+        </EditTextPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

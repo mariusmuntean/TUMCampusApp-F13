@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#0065BD"
+        android:text="@string/studienbeitrag"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/soll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Betrag:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/frist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frist:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/semester"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semester:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+  
+</LinearLayout>
